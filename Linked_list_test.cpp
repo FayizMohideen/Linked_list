@@ -1,8 +1,7 @@
 #include "Linked_list.hpp"
-#include "Node.cpp"
 #include <iostream>
 
-int main() {
+void Linked_list_test() {
   //Testing empty list and accessor/output functions
   Linked_list list{};
   std::cout << list;
@@ -101,7 +100,7 @@ int main() {
   //list2.push_back( list2_copy );
 
   //Testing reverse()
-  //list2.reverse();
+  list2.reverse();
   //std::cout << list2;
 
   //Testing find() true

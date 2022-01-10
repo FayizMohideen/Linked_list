@@ -52,7 +52,7 @@ class Linked_list{
     void erase( std::size_t const first_index,
                 std::size_t const last_index );
     
-    bool operator+( Linked_list const &rhs );
+    void operator+( Linked_list const &rhs );
     bool operator==( Linked_list const &rhs ) const;
     bool operator!=( Linked_list const &rhs ) const;
 

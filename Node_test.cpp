@@ -1,8 +1,8 @@
 #include "Node.hpp"
 #include <iostream>
 
-int main()
-{
+
+ void Node_test() {
   //Testing Initializer and Destructor 
   //Testing output  
   Node node { Node( 1, nullptr, nullptr ) };
@@ -45,6 +45,5 @@ int main()
   std::cin >> input; 
   std::cout << std::endl;
   std::cout << input;
-  
-  return 0;
+
 }

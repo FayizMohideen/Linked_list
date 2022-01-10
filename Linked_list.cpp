@@ -1,7 +1,6 @@
 #include "Linked_list.hpp"
 #include <iostream>
 
-
 Linked_list::Linked_list():
 p_head_{ nullptr }, 
 size_{ 0 },
@@ -244,7 +243,7 @@ void Linked_list::erase( std::size_t const first_index,
       } 
 }
 
-bool Linked_list::operator+( Linked_list const &rhs ) {
+void Linked_list::operator+( Linked_list const &rhs ) {
   Linked_list copy{ rhs };
   push_back( copy );
 }
